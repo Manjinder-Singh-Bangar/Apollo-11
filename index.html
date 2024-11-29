@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Website</title>
+    <script type="module" src=" <script type=" module"
+        src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h1>AI Website</h1>
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#gloves">Gloves</a></li>
+            <li><a href="#spacesuit">Suits</a></li>
+            <li><a href="#spaceship">Spaceship</a></li>
+        </ul>
+    </nav>
+    <div class="hero-home">
+        <canvas id="spaceCanvas"></canvas>
+        <div class="hero-content">
+            <h1>Apollo Mission Equipment</h1>
+            <p>Explore the revolutionary gear that took humanity to the Moon</p>
+        </div>
+    </div>
+
+    <div class="three-d-models">
+        <h2 class="section-title">Our Featured Models</h2>
+
+        <!-- Model 1 Section -->
+        <div id="gloves" class="model-section">
+            <div class="model-content">
+                <div class="model-viewer-container">
+                    <!-- Placeholder for 3D model -->
+                    <model-viewer src="#" alt="3D model 1" auto-rotate camera-controls></model-viewer>
+                </div>
+                <div class="model-info">
+                    <h3>Protection and Dexterity on the Moon</h3>
+                    <p>The gloves were designed for Extra-Vehicular Activities (EV) on the Moon and were part of
+                        the A7L spacesuit, created through a collaboration between ILC Dover and NASA's David Clark
+                        Company. ILC Dover was responsible for the final design and manufacture of the spacesuit,
+                        including its multi-layered structure and inflatable elements.</p>
+                    <ul>
+                        <li></li>
+                        <li> Blue silicone rubber fingertips provided sensitivity and dexterity for manipulating tools and equipment on the lunar surface.</li>
+                        <li>Human-Centric Design</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="model-gallery">
+                <img src="Assests/2 - gloves-Camera.png" alt="Detail 1">
+                <img src="Assests/SpaceGloves-Camera.png" alt="Detail 2">
+                <img src="Assests/3 - spaceGloves-Camera.png" alt="Detail 3">
+            </div>
+        </div>
+
+        <div class="model-divider">
+            <div class="divider-line"></div>
+            <div class="divider-icon">⭐</div>
+            <div class="divider-line"></div>
+        </div>
+
+        <!-- Model 2 Section -->
+        <div id="spacesuit" class="model-section">
+            <div class="model-content">
+                <div class="model-viewer-container">
+                    <!-- Placeholder for 3D model -->
+                    <model-viewer src="#" alt="3D model 2" auto-rotate camera-controls></model-viewer>
+                </div>
+                <div class="model-info">
+                    <h3>A7L Apollo Spacesuit</h3>
+                    <p>The A7L spacesuit was NASA's primary spacesuit used during the Apollo program. This remarkable piece of engineering 
+                        protected astronauts from the harsh lunar environment while providing mobility and life support for moonwalks.</p>
+                    <ul>
+                        <li>Multi-layer Protection System</li>
+                        <li>Integrated Life Support Backpack</li>
+                        <li>Pressurized Joint Systems</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="model-gallery">
+                <img src="Assests/2 - spaceSuit-Camera.png" alt="Detail 1">
+                <img src="Assests/Spacesuit-Camera.png" alt="Detail 2">
+                <img src="Assests/3 - spacesuit.png" alt="Detail 3">
+            </div>
+        </div>
+
+        <div class="model-divider">
+            <div class="divider-line"></div>
+            <div class="divider-icon">⭐</div>
+            <div class="divider-line"></div>
+        </div>
+
+        <!-- Model 3 Section -->
+        <div id="spaceship" class="model-section">
+            <div class="model-content">
+                <div class="model-viewer-container">
+                    <!-- Placeholder for 3D model -->
+                    <model-viewer src="#" alt="3D model 3" auto-rotate camera-controls></model-viewer>
+                </div>
+                <div class="model-info">
+                    <h3>Apollo Command/Service Module</h3>
+                    <p>The Apollo Command/Service Module (CSM) was the spacecraft that carried astronauts to the Moon and back. 
+                        This marvel of engineering consisted of two parts: the Command Module for crew housing and reentry, 
+                        and the Service Module containing propulsion and supplies.</p>
+                    <ul>
+                        <li>Advanced Navigation Systems</li>
+                        <li>Reentry Heat Shield Protection</li>
+                        <li>Life Support Systems for Long-Duration Spaceflight</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="model-gallery">
+                <img src="Assests/3 - spaceship-Camera.png" alt="Detail 1">
+                <img src="Assests/SpaceShip-Camera.png" alt="Detail 2">
+                <img src="Assests/2 - spaceship-Camera.png" alt="Detail 3">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <!-- Footer Navigation -->
+            <div class="footer-nav">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#gloves">Gloves</a></li>
+                    <li><a href="#spacesuit">Suits</a></li>
+                    <li><a href="#spaceship">Spaceship</a></li>
+                </ul>
+            </div>
+
+            <!-- Footer About -->
+            <div class="footer-about">
+                <h4>About Apollo Mission</h4>
+                <p>Exploring the revolutionary equipment that made the Moon landing possible. Join us in discovering the technological marvels of space exploration.</p>
+            </div>
+
+            <!-- Footer Contact -->
+            <div class="footer-contact">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>&copy; 2024 Apollo Mission Equipment. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>
