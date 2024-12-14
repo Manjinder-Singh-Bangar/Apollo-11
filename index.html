@@ -30,6 +30,12 @@
             transform: scale(1.2);
             /* Scale up on hover */
         }
+
+        #model-viewer::part(poster) {
+    object-fit: cover;
+    width: 300px; 
+    height: 300px;/* Make the poster image cover the area without distortion */
+  }
     </style>
 </head>
 
@@ -65,7 +71,10 @@
                     <!-- Placeholder for 3D model -->
                     <model-viewer src="./Assests/Models/apollo_11_lunar_extravehicular_gloves(1)/scene.gltf" auto-rotate
                         ar interaction-prompt="when-focused" shadow-intensity="1" touch-action="pan-y" camera-controls
-                        style="width: 100%; height: 500px;">
+                        style="width: 100%; height: 500px;"
+                        poster="./Assests/Images/kOnzy.gif"
+
+                        >
                         <button class="Hotspot" slot="hotspot-1"
                             data-position="0.08428916605305815m 0.6454283218607442m 0.2516531374742891m"
                             data-normal="-0.200918337616524m -0.13473706792016574m 0.9702977605548152m"
@@ -91,6 +100,7 @@
                             data-normal="0.10677839965890373m -0.0155987931869258m 0.9941604754854193m"
                             data-visibility-attribute="visible"
                             data-img-src="./Assests/Images/LowerPart-Camera.png"
+
                             >
                             
                             <div class="hotspot-label">Lower Part</div>
@@ -132,7 +142,10 @@
                     <!-- Placeholder for 3D model -->
                     <model-viewer id="modelViewer" src="./Assests/Models/neil_armstrong/scene.gltf" auto-rotate ar
                         interaction-prompt="when-focused" shadow-intensity="1" touch-action="pan-y" camera-controls
-                        style="width: 100%; height: 500px;">
+                        style="width: 100%; height: 500px;"
+                        poster="./Assests/Images/kOnzy.gif"
+                        
+                    >
                     </model-viewer>
 
                 </div>
@@ -168,7 +181,9 @@
                 <div class="model-viewer-container">
                     <model-viewer src="./Assests/Models/SpaceShip/apollo_exterior-150k-4096.gltf" auto-rotate ar
                         interaction-prompt="when-focused" shadow-intensity="1" touch-action="pan-y" camera-controls
-                        style="width: 100%; height: 500px;">
+                        style="width: 100%; height: 500px;"
+                        poster="./Assests/Images/kOnzy.gif"
+                        >
                     </model-viewer>
                 </div>
                 <div class="model-info">
