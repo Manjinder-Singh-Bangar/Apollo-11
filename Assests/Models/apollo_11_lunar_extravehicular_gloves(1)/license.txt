@@ -1,0 +1,11 @@
+Model Information:
+* title:	Apollo 11 Lunar Extravehicular Gloves
+* source:	https://sketchfab.com/3d-models/apollo-11-lunar-extravehicular-gloves-f7df16f14b6a44b49753ce349c2d646e
+* author:	Andriano Milanovic (https://sketchfab.com/andriano82)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Apollo 11 Lunar Extravehicular Gloves" (https://sketchfab.com/3d-models/apollo-11-lunar-extravehicular-gloves-f7df16f14b6a44b49753ce349c2d646e) by Andriano Milanovic (https://sketchfab.com/andriano82) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
